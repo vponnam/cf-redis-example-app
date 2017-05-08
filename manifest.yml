@@ -2,7 +2,7 @@
 buildpack: ruby_buildpack
 applications:
 - name: redis-example-app
-  memory: 256M
+  memory: 512M
   instances: 1
   path: .
   random-route: true
